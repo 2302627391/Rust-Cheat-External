@@ -2,7 +2,7 @@
 DWORD64 automatic[]
 {
 	1545779598, // AK - 47;
-	-1758372725, // Томсон
+	-1758372725, // Г’Г®Г¬Г±Г®Г­
 	1796682209, // SMG
 	-1812555177,// LR - 300
 	1318558775, // MP5
@@ -13,22 +13,22 @@ DWORD64 automatic[]
 DWORD64 sniper[]
 {
 	-778367295, // L96
-	1588298435, // Болт
-	1443579727, // лук
-	884424049, // Блочка
-	1443579727, //лук
+	1588298435, // ГЃГ®Г«ГІ
+	1443579727, // Г«ГіГЄ
+	884424049, // ГЃГ«Г®Г·ГЄГ 
+	1443579727, //Г«ГіГЄ
 
 };
 
 DWORD64 semiautomatic[]{
-	-904863145, // Берданка 
-	818877484, // Пэшка
-	-852563019, // берета
-	1373971859, // Питон
-	649912614, // револьвер
+	-904863145, // ГЃГҐГ°Г¤Г Г­ГЄГ  
+	818877484, // ГЏГЅГёГЄГ 
+	-852563019, // ГЎГҐГ°ГҐГІГ 
+	1373971859, // ГЏГЁГІГ®Г­
+	649912614, // Г°ГҐГўГ®Г«ГјГўГҐГ°
 	28201841, // M39
-	1953903201, // Гвоздомёт
-	-1123473824, // Гранатомёт
+	1953903201, // ГѓГўГ®Г§Г¤Г®Г¬ВёГІ
+	-1123473824, // ГѓГ°Г Г­Г ГІГ®Г¬ВёГІ
 };
 
 DWORD64 meele[]{
@@ -47,7 +47,7 @@ DWORD64 meele[]{
 
 //class BasePlayer
 #define oPlayerFlags 0x678 // public BasePlayer.PlayerFlags playerFlags;
-#define oPlayerEyes 0x680 // public PlayerEyes eyes;
+#define oPlayerEyes 0x690 // public PlayerEyes eyes;
 #define oPlayerName 0x6D8 // protected string _displayName;
 #define oPlayerHealth 0x224 // private float _health;//protected float _health;
 #define olastSentTickTime 0x64C // private float lastSentTickTime;
