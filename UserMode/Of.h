@@ -112,7 +112,7 @@ DWORD64 meele[]{
 
 //PlayerModel
 #define oPlayerModel 0x4C0 // public PlayerModel playerModel;
-#define oVisible 0x278 // internal bool visible;
+#define oVisible 0x278 // internal bool vsible;
 
 //PlayerInput
 #define oPlayerInput 0x4E0// public PlayerInput input;
