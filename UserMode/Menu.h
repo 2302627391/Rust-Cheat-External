@@ -208,7 +208,7 @@ public:
 			DrawBox(this->menu_x - 3, this->menu_y - 17, 154, 17, 1.f, 0.1f, 0.1f, 0.1f, alpha, true);
 			DrawBox(this->menu_x - 3, this->menu_y - 17, 154, 17, 1.f, 1.0f, 1.0, 1.0f, alpha, false);
 
-			DrawString("Winhack.fun - " + std::to_string(get_frame_rate()), 12, this->menu_x + 28, this->menu_y - 18, 1.f, 1.f, 1.f, alpha);
+			DrawString("Emplcae.cc - " + std::to_string(get_frame_rate()), 12, this->menu_x + 28, this->menu_y - 18, 1.f, 1.f, 1.f, alpha);
 
 			DrawBox(this->menu_x - 3, this->menu_y, 154, (items.size() * item_gap), 1.f, 0.1f, 0.1f, 0.1f, alpha, true);
 			DrawBox(this->menu_x - 3, this->menu_y, 154, (items.size() * item_gap), 1.f, 1.0f, 1.0, 1.0f, alpha, false);
